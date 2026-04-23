@@ -6,13 +6,14 @@
 A production-ready decentralized crowdfunding application built on the Stellar Testnet using Soroban smart contracts. This dApp features custom token integration via Inter-Contract Calls, CI/CD automated testing, a fully responsive mobile-first UI, and optimized performance using React caching.
 
 ## 🌐 Live Demo
-👉 **[Live dApp Link] (Placeholder)**
+https://stellar-crowdfund-dapp4.netlify.app/
 
 ## 🎥 Demo Video
-👉 **[Demo Video Link] (Placeholder)**
+👉 https://drive.google.com/drive/folders/1fmwMkWiF3izDUtHwSIshRlkf7SwBeg1q?usp=sharing
 
 ## 📱 Mobile Preview
-![Mobile View Placeholder](./mobile_preview_placeholder.png)
+<img width="249" height="488" alt="Screenshot 2026-04-23 233348" src="https://github.com/user-attachments/assets/b22e4ff5-2279-4db4-a2a9-602a1fcba84e" />
+
 
 ## 🎯 Objective (Level 4 Green Belt)
 - **Custom Token Integration**: Replaced XLM with a custom ERC20-like Token (Inter-Contract Call).
@@ -84,25 +85,6 @@ stellar-multiwallet-dapp/
 - **Wallet Integration:** `stellar-wallets-kit`
 - **Testing & CI:** Jest & GitHub Actions
 
-## ✅ Level 4 Green Belt Requirements Checklist
-- [x] Custom Token Contract
-- [x] Inter-Contract Calls (Crowdfund -> Token)
-- [x] CI/CD Pipeline Integration (GitHub Actions)
-- [x] Mobile Responsiveness via Tailwind
-- [x] Performance Optimizations
-
-## 📦 Suggested Git Commits for this Upgrade
-You can replicate this history using the following commands:
-```bash
-git commit -m "feat: add custom token contract"
-git commit -m "feat: implement inter-contract calls in crowdfund"
-git commit -m "feat: integrate token in frontend"
-git commit -m "ci: setup GitHub Actions pipeline"
-git commit -m "feat: improve mobile responsiveness"
-git commit -m "test: enhance test coverage"
-git commit -m "perf: optimize contract calls and ui renders"
-git commit -m "docs: update README for Level 4"
-```
 
 ## 👨‍💻 Author
 **Ajinkya Mandlik**
