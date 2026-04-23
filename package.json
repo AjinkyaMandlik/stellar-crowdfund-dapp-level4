@@ -1,0 +1,14 @@
+{
+  "name": "stellar-multiwallet-dapp",
+  "version": "1.0.0",
+  "description": "Level 3 Stellar Soroban dApp",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix frontend",
+    "lint": "npm run lint --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
