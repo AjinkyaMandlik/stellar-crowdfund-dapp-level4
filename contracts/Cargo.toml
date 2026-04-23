@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "crowdfund",
+    "token",
+]
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "debuginfo"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
+
