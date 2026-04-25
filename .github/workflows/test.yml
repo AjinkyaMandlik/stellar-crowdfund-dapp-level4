@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  test:
+  frontend-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,3 +27,22 @@ jobs:
     - name: Run Jest tests
       working-directory: ./frontend
       run: npm test
+
+  contracts-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Rust
+      run: |
+        rustup update
+        rustup target add wasm32-unknown-unknown
+
+    - name: Run Cargo Test
+      working-directory: ./contracts
+      run: cargo test
+
+    - name: Build Contracts
+      working-directory: ./contracts
+      run: cargo build --target wasm32-unknown-unknown --release
